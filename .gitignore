@@ -1,0 +1,11 @@
+# PhpStorm
+/.idea/
+/.idea/*
+
+# Composer
+/vendor/
+/vendor/*
+
+# VS Code
+/.vscode/
+/.vscode/*
