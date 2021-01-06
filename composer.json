@@ -1,0 +1,19 @@
+{
+  "name": "jascha030/wp-plugin-template",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "jascha030",
+      "email": "contact@jaschavanaalst.nl"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "jascha030/wp-plugin-lib": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jascha030\\PluginTemplate\\": "src/"
+    }
+  }
+}
