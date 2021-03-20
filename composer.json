@@ -4,16 +4,24 @@
   "authors": [
     {
       "name": "jascha030",
-      "email": "contact@jaschavanaalst.nl"
+      "email": "contact@jaschavanaalst.nl",
+      "role":  "Developer"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
-    "jascha030/wp-plugin-lib": "dev-main"
+    "jascha030/wp-plugin-lib": "^1.0"
   },
   "autoload": {
     "psr-4": {
       "Jascha030\\PluginTemplate\\": "src/"
     }
+  },
+  "description": "boilerplate",
+  "config": {
+    "php":"^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   }
 }
