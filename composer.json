@@ -10,7 +10,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "jascha030/wp-plugin-lib": "^1.0"
+    "jascha030/wp-plugin-lib": "^1.0",
+    "composer/installers": "^1.10"
   },
   "autoload": {
     "psr-4": {
@@ -22,6 +23,10 @@
     "php":"^7.4"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "post-install-cmd": ""
   }
 }
